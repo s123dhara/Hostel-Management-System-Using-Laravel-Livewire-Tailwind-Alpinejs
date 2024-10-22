@@ -1,66 +1,96 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+# HOSTEL MANAGEMENT SYSTEM
+This Hostel Management System is a full-featured web application built using the TALL Stack (Tailwind CSS, Alpine.js, Laravel, and Livewire). It is designed to simplify and streamline hostel management tasks, providing an intuitive interface for both hostel administrators and residents.
 
-## About Laravel
+The system allows for efficient management of hostel-related activities such as room allocation, resident records, payment tracking, and more. It leverages the modern web development capabilities of the TALL Stack to create a reactive, fast, and visually appealing user experience.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Key & Features
+Room Allocation Management:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- ## Create, view, and assign rooms to residents:
+  - Room availability tracking and status updates
+  - Configurable room categories (e.g., single, double, deluxe)
+  - Resident Information Management:
 
-## Learning Laravel
+ - ## Add and manage resident profiles with detailed information
+    - Track residency duration, room history, and associated payments
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- ## Payment Tracking and Billing [## This is Under Development Section ]:
+  - Record payments and issue bills/invoices
+  - Real-time updates on payment statuses (paid/unpaid)
+  - Payment history for each resident
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+- ## Announcements & Notices:
+  - Create and publish announcements or important notices
+  - Role-based access for hostel staff to manage announcements
+  - Maintenance Requests:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- ## Residents can file maintenance requests via their dashboard
+   - Administrators can track and manage pending and resolved requests
+   - Authentication and Role-based Access Control (RBAC):
 
-## Laravel Sponsors
+- ## Secure login with user roles (admin, resident, staff)
+  - Access control for different functionalities based on roles
+  
+- ## Dashboard Analytics:
+ - Visual representation of room occupancy rates
+ - Payment summaries, pending requests, and other useful statistics
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
 
-### Premium Partners
+## Tech Stack
+- Tailwind CSS: Responsive and utility-first CSS framework to ensure a modern, mobile-friendly user interface.
+- Alpine.js: Minimal JavaScript framework for handling frontend interactivity without the need for large libraries.
+- Laravel: Robust PHP framework for backend development, featuring Eloquent ORM, routing, and secure user authentication.
+- Livewire: Dynamic, real-time updates to the user interface without leaving the simplicity of Laravel’s backend.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+## Output 
+- Home page of Hostel
+  ## LIGHT MODE 
+![image](https://github.com/user-attachments/assets/b4228d72-e06c-4cbb-9692-8738aa2f0ae4)
+  ## DARK MODE
+   ![image](https://github.com/user-attachments/assets/5a6f1807-3f7f-4bd6-a37f-6c2f91ad921d)
 
-## Contributing
+- Login/ Register page of User
+- ![image](https://github.com/user-attachments/assets/e6cb7696-76df-49c1-8ef7-e2eec4fa2b60)
+- ![image](https://github.com/user-attachments/assets/611c97de-3996-4b39-ae86-009ad4f6e4ef)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Code of Conduct
+- Login/ Register page of Admin
+- ![image](https://github.com/user-attachments/assets/af40723a-3292-4a2c-b66e-9340b8577f4b)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
-## Security Vulnerabilities
+- Admin panel 
+![image](https://github.com/user-attachments/assets/152b30dd-82f4-4412-aecb-6b9541d048ee)
+![image](https://github.com/user-attachments/assets/f02e9278-9c61-4a2f-ba3e-35cb82ec3c9a)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- Room managment 
+![image](https://github.com/user-attachments/assets/aed2f0d7-0e50-4fd3-ac51-1160ee8d7470)
+
+
+- student Managment
+  - In Developement
+  - 
+ ## and Etc check in github Link : https://github.com/s123dhara/Hostel-Management-System-Using-PHP-and-MySQL
+
+
+
+
+## Installation
+
+Install my-project with Xampp
+# First Install Xampp with Php Version 8.2
+
+```bash
+  Open Browser and write : localhost/hms
+```
+
+# For Database Connection
+```bash
+  I Have uploaded hms.sql file. First Download it and Import it in Phpmyadmin. 
+
+## Feedback
+
+If you have any feedback, please reach out to us at spdh427@gmail.com
